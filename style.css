@@ -4,14 +4,33 @@
     --lime-green: hsl(163, 72%, 41%);
     --bright-red: Bright Red: hsl(356, 69%, 56%);
 
-    /* Backgrounds */
+    /* Dark theme BGs */
     --bg-dark-blue: hsl(230, 17%, 14%);
-    --top-bg-blue: hsl(232, 19%, 15%);
+    --top-dark-blue: hsl(232, 19%, 15%);
     --card-bg-dark: hsl(228, 28%, 20%);
 
+    /* Dark theme Text */
+    --type-body-blue: hsl(228, 34%, 66%);
+    --type-body-white: White (Text): hsl(0, 0%, 100%);
+
+    /* Dark theme toggle */
+    --toggle-dark-theme: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+
+    /* Light theme BGs */
+    --bg-light: hsl(0, 0%, 100%);
+    --top-light-blue: hsl(225, 100%, 98%);
+    --card-bg-light: hsl(227, 47%, 96%);
+
+    /* Light theme text */
+    --type-body-dark: hsl(228, 12%, 44%);
+	--type-body-darkness: hsl(230, 17%, 14%);
+	
+	/* Light theme toggle */
+
+	--toggle-light-theme: hsl(230, 22%, 74%);
+
+
     /* Typography */
-    --type-white: hsl(0, 0%, 100%);
-    --type-blue: hsl(228, 34%, 66%);
     --font-family: 'Inter', sans-serif;
     --font-size: 14px;
     --weight-soft: 400;
@@ -23,15 +42,9 @@
     --inst: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
     --youtube: hsl(348, 97%, 39%);
 
-    /* Toggle */
-    --light-toggle:  hsl(230, 22%, 74%);
-    --dark-toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
-
+ 
 }
 
-body {
-    
-}
 
 /* Media queries */
 
@@ -44,3 +57,13 @@ body {
     :root {  
     
   } */
+
+
+  .container {
+    display: grid;
+  }
+
+  .card {
+    background-color: var( --card-bg-light);
+    
+  }
