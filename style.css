@@ -59,11 +59,13 @@
   } */
 
 
-  .container {
-    display: grid;
-  }
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 
-  .card {
-    background-color: var( --card-bg-light);
-    
-  }
+	}
+
+	.card {
+		background-color: var( --card-bg-light);
+
+	}
