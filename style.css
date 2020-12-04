@@ -99,5 +99,13 @@
 		background-color: var( --card-bg-light);  
 	}
 
+	.wrapper {
+		padding-top: 50px;
+	}
+
+	.headline_background {
+		display: flex;
+		justify-content: space-between;
+	}
 
 	
