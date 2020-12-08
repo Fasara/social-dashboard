@@ -34,7 +34,7 @@
     --font-family: 'Inter', sans-serif;
     --font-size: 14px;
     --weight-soft: 400;
-    --wight-strong: 700;
+    --weight-strong: 700;
 
     /* Social media logos */
     --fbook-blue: hsl(208, 92%, 53%);
@@ -74,7 +74,6 @@
 	}
 
 
-
 	/* Large and max screens */
 	@media all and (min-width: 961px) {
 
@@ -95,10 +94,6 @@
 		font-family: var(--font-family);
 	}
 
-	.card {
-		background-color: var( --card-bg-light);  
-	}
-
 	.wrapper {
 		padding-top: 50px;
 	}
@@ -108,4 +103,22 @@
 		justify-content: space-between;
 	}
 
-	
+	.card {
+		background-color: var( --card-bg-light);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px 30px 20px 30px;
+	}
+
+	.card-icon_handle {
+		font-weight: var( --weight-strong);
+		color:  var(--type-body-dark);
+		margin-left: 10px;
+	}
+
+	.card-number {
+		font-size: 30px;
+		font-weight: var( --weight-strong);
+		font-family: var(--font-family);
+	}
